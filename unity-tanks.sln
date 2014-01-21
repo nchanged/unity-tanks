@@ -1,7 +1,7 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
-Project("{D7C241CE-4D07-9E2A-4E87-1A0BC418F60D}") = "unity-tanks", "Assembly-UnityScript.unityproj", "{1E40CFC6-F34F-E546-71B1-9D636BBAFD94}"
+Project("{D7C241CE-4D07-9E2A-4E87-1A0BC418F60D}") = "unity-tanks", "Assembly-CSharp.csproj", "{5AA8D205-CA3E-CB13-26C8-988D5875CEAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,15 +9,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1E40CFC6-F34F-E546-71B1-9D636BBAFD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1E40CFC6-F34F-E546-71B1-9D636BBAFD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1E40CFC6-F34F-E546-71B1-9D636BBAFD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1E40CFC6-F34F-E546-71B1-9D636BBAFD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA8D205-CA3E-CB13-26C8-988D5875CEAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA8D205-CA3E-CB13-26C8-988D5875CEAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA8D205-CA3E-CB13-26C8-988D5875CEAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA8D205-CA3E-CB13-26C8-988D5875CEAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(MonoDevelopProperties) = preSolution
+			GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
@@ -35,4 +35,5 @@ Global
 		$3.inheritsScope = text/plain
 		$3.scope = text/plain
 	EndGlobalSection
+
 EndGlobal
